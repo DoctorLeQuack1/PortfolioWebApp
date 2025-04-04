@@ -1,12 +1,13 @@
-@import "tailwindcss";
-@plugin "flowbite-react/plugin/tailwindcss";
-@source "../.flowbite-react/class-list.json";
-
-* {
+/* index.css o App.css */
+body {
     background-color: black;
-}
-
+    color: white; /* Para asegurarte de que el texto sea visible en el fondo negro */
+  }
 #navBarButton:hover{
     background-color: #e5e7eb;
     color: black;
+}
+
+#button-special:hover{
+    background-color: red;
 }

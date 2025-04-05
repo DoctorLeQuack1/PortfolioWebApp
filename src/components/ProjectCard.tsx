@@ -10,14 +10,14 @@ export const ProjectCard = (props: any) => {
                         className="btn btn-primary position-absolute"
                         style={{
                             bottom: "25px", left: "50%", transform: "translateX(-50%)",
-                            backgroundColor: "black", borderColor: "white",
+                            backgroundColor: "transparent", borderColor: "white",
                         }}
                         onMouseEnter={(e) => {
                             e.currentTarget.style.backgroundColor = 'white';
                             e.currentTarget.style.color = 'black';
                         }}
                         onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = 'black';
+                            e.currentTarget.style.backgroundColor = 'transparent';
                             e.currentTarget.style.color = 'white';
                         }}
                         >

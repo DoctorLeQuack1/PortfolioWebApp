@@ -10,7 +10,7 @@ export const NavBar = () => {
                 <div className="d-none d-md-flex gap-3">
                     <NavBarButton text={"About Me"} />
                     <NavBarButton text={"Portfolio"} />
-                    <NavBarButton text={"Contact"} />
+                    <NavBarButton text={"Contact"} type={"Dropdown"}/>
                     <NavBarButton text={"Resume"} />
                 </div>
                 <div className="dropdown d-sm-flex d-md-none">

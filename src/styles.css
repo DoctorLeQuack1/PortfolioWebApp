@@ -1,0 +1,9 @@
+/* index.css o App.css */
+body {
+    background-color: black;
+    color: white; /* Para asegurarte de que el texto sea visible en el fondo negro */
+  }
+#navBarButton:hover{
+    background-color: #e5e7eb;
+    color: black;
+}

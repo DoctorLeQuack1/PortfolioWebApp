@@ -1,5 +1,6 @@
 import { NavBar } from "./components/NavBar";
 import { AboutMe } from "./pages/AboutMe";
+import { Portfolio } from "./pages/Portfolio";
 export const App = () => {
 
   return (
@@ -9,7 +10,8 @@ export const App = () => {
       </header>
 
       <main>
-          <AboutMe/>        
+          <AboutMe/> 
+          <Portfolio/>       
       </main>
     </div>
 
